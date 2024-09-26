@@ -18,4 +18,20 @@ Clone the repo
 
 ## Training
 
+For training from scratch:
+
 `yolo detect train data=aircraft.yaml model=yolov10n/s/m/b/l/x.yaml epochs=500 batch=256 imgsz=640 device=0,1,2,3,4,5,6,7`
+
+
+from ultralytics import YOLOv10
+
+model = YOLOv10()
+If you want to finetune the model with pretrained weights, you could load the 
+pretrained weights like below
+
+`model = YOLOv10.from_pretrained('jameslahm/yolov10{n/s/m/b/l/x}')`
+or
+`wget https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10{n/s/m/b/l/x}.pt`
+`model = YOLOv10('yolov10{n/s/m/b/l/x}.pt')`
+
+`model.train(data='coco.yaml', epochs=500, batch=256, imgsz=640)`
