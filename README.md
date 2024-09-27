@@ -48,6 +48,16 @@ or
 `model.train(data='coco.yaml', epochs=500, batch=256, imgsz=640)`
 
 
+
+![F1_curve](https://github.com/user-attachments/assets/3a92dcbe-b31f-48f8-8cd3-2d3a003500db)
+
+
+![P_curve](https://github.com/user-attachments/assets/41d06b90-85f0-4332-b849-55e2f12b704e)
+
+![PR_curve](https://github.com/user-attachments/assets/f139b4f1-cff7-4acb-b754-3d4ed04c9d![R_curve](https://github.com/user-attachments/assets/1028ec8a-876c-4a45-9d32-686f3b996104)
+f1)
+
+
 ## Validation
 Copy best.pt file from /home/faryal/Downloads/yolov10/yolov10/runs/detect/train20/weights/ folder into the main folder /home/faryal/Downloads/yolov10/yolov10/ and then run the command 
 
