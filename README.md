@@ -9,8 +9,8 @@ we will use YOLOv10 for our custom dataset aircraft detection and classification
 ![HillAirForceBaseZOom19046mp_6753_5840](https://github.com/user-attachments/assets/f4314d8a-b852-478c-b6ca-7b2c00dead0c)
 
 
-![AvianoAirBase_533_3332](https://github.com/user-attachments/assets/ee94029c-1633-4230-ab46-c72a47cbc854)
 
+![myrhorodairbase_2930_7766](https://github.com/user-attachments/assets/60424fa7-b388-44d8-a808-6707964268e0)
 
 ## Installation
 
