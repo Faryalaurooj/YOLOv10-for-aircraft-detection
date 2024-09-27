@@ -18,15 +18,19 @@ Clone the repo
 
 ## Training
 
-For training from scratch, we need to place our dataset in the folder /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/datasets/aircraft_images and /aircraft_labels  and also copy obj.names in this folder. Then run the code split.py from this folder. It will create an output directory at location /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/images and /labels and each folder will contain test train val. We habe split our dataset in 60 ; 30 ; 10 percentage into train val and test folders:
+For training from scratch, we need to place our dataset in the folder /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/datasets/aircraft_images and /aircraft_labels  and also copy obj.names in this folder. Then run the code split.py from this folder. It will create an output directory at location /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/train/images and /labels and similarly for val/images and /labels and similarly for test/images and /labels. We have split our dataset in 60 ; 30 ; 10 percentage into train val and test folders:
+
 
 'python split.py'
+
 
 
 then from the directory /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output run in terminal ; 
 
 
-`yolo detect train data=aircraft.yaml model=yolov10n/s/m/b/l/x.yaml epochs=500 batch=256 imgsz=640 device=0,1,2,3,4,5,6,7`
+`yolo detect train data=aircraft.yaml model=yolov10s.yaml epochs=100  batch=32  imgsz=416 device=0`
+
+It will start training the yolov10 model on your custom data
 
 
 `from ultralytics import YOLOv10`
