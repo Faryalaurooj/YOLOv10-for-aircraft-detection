@@ -54,7 +54,9 @@ or
 
 ![P_curve](https://github.com/user-attachments/assets/41d06b90-85f0-4332-b849-55e2f12b704e)
 
-![PR_curve](https://github.com/user-attachments/assets/f139b4f1-cff7-4acb-b754-3d4ed04c9d![R_curve](https://github.com/user-attachments/assets/1028ec8a-876c-4a45-9d32-686f3b996104)
+![PR_curve](https://github.com/user-attachments/assets/f139b4f1-cff7-4acb-b754-3d4ed04c9d
+
+![R_curve](https://github.com/user-attachments/assets/1028ec8a-876c-4a45-9d32-686f3b996104)
 f1)
 
 
