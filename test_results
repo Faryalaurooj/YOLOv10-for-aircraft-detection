@@ -1,0 +1,478 @@
+Ultralytics YOLOv8.1.34 🚀 Python-3.9.19 torch-2.0.1+cu117 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+YOLOv10s summary (fused): 293 layers, 8042700 parameters, 0 gradients, 24.5 GFLOPs
+
+image 1/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_1079_1497.jpg: 416x416 2 F_16s, 10.2ms
+image 2/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_1166_3423.jpg: 416x416 1 F_16, 5.6ms
+image 3/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_1350_1430.jpg: 416x416 4 F_16s, 5.2ms
+image 4/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_1486_1388.jpg: 416x416 4 F_16s, 5.5ms
+image 5/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_149_1614.jpg: 416x416 1 F_16, 1 Pens, 5.2ms
+image 6/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_2096_976.jpg: 416x416 1 F_16, 5.1ms
+image 7/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_215_2404.jpg: 416x416 1 F_16, 5.0ms
+image 8/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_2496_1180.jpg: 352x416 1 F_16, 41.1ms
+image 9/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_256_1943.jpg: 416x416 1 F_16, 5.4ms
+image 10/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_533_3332.jpg: 416x416 3 F_16s, 5.2ms
+image 11/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_549_2014.jpg: 416x416 1 F_16, 5.1ms
+image 12/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_667_3208.jpg: 416x416 4 F_16s, 5.3ms
+image 13/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_766_3023.jpg: 416x416 5 F_16s, 5.0ms
+image 14/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/AvianoAirBase_770_3252.jpg: 416x416 4 F_16s, 5.1ms
+image 15/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_10052_8794.jpg: 416x416 6 WBs, 5.0ms
+image 16/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_10131_8797.jpg: 416x416 6 WBs, 5.0ms
+image 17/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_2514_7044.jpg: 416x416 3 WBs, 5.0ms
+image 18/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_3235_7436.jpg: 416x416 1 WB, 5.1ms
+image 19/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_4301_6103.jpg: 416x416 1 F_16, 5.0ms
+image 20/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_4400_5945.jpg: 416x416 2 F_16s, 5.4ms
+image 21/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_4412_5455.jpg: 416x416 (no detections), 5.1ms
+image 22/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_4412_5651.jpg: 416x416 (no detections), 5.1ms
+image 23/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_4608_5651.jpg: 416x416 (no detections), 4.9ms
+image 24/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_4800_6345.jpg: 416x416 2 F_16s, 5.1ms
+image 25/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5147_11280.jpg: 416x416 3 A10s, 5.2ms
+image 26/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5244_11081.jpg: 416x416 5 A10s, 5.0ms
+image 27/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5244_11277.jpg: 416x416 1 Other, 7 A10s, 5.1ms
+image 28/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5352_11265.jpg: 416x416 3 Others, 4 A10s, 8.0ms
+image 29/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5384_11067.jpg: 416x416 3 Others, 4 A10s, 5.0ms
+image 30/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5413_11066.jpg: 416x416 3 Others, 5 A10s, 5.2ms
+image 31/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5752_11469.jpg: 416x416 3 Others, 1 A10, 5.0ms
+image 32/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_5905_2868.jpg: 416x416 1 Pens, 5.2ms
+image 33/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6101_2868.jpg: 416x416 1 Pens, 5.0ms
+image 34/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6305_3072.jpg: 416x416 1 WB, 1 Pens, 5.1ms
+image 35/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6378_5993.jpg: 416x416 1 F_16, 1 Other, 5.1ms
+image 36/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6463_7254.jpg: 416x416 1 WB, 5.1ms
+image 37/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6753_5840.jpg: 416x416 2 F_16s, 1 Other, 5.0ms
+image 38/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6858_5835.jpg: 416x416 2 F_16s, 1 Other, 4.9ms
+image 39/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6864_7479.jpg: 416x416 2 WBs, 5.0ms
+image 40/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6867_7300.jpg: 416x416 2 WBs, 5.0ms
+image 41/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_6867_7496.jpg: 416x416 2 WBs, 5.1ms
+image 42/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_7060_7479.jpg: 416x416 1 WB, 4.9ms
+image 43/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_7062_6039.jpg: 416x416 2 F_16s, 5.3ms
+image 44/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_7264_7683.jpg: 416x416 1 WB, 5.4ms
+image 45/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_7450_5707.jpg: 416x416 2 F_16s, 1 Other, 5.3ms
+image 46/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_7791_7659.jpg: 416x416 1 F_16, 5.4ms
+image 47/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_7987_7855.jpg: 416x416 1 F_16, 5.5ms
+image 48/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8112_7893.jpg: 416x416 1 F_16, 1 A10, 5.4ms
+image 49/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8113_8102.jpg: 416x416 1 F_16, 1 A10, 5.4ms
+image 50/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8291_8225.jpg: 416x416 2 F_16s, 2 A10s, 5.1ms
+image 51/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8308_8089.jpg: 416x416 2 F_16s, 4 A10s, 5.2ms
+image 52/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8370_7914.jpg: 416x416 1 F_16, 2 A10s, 5.5ms
+image 53/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8489_8250.jpg: 416x416 2 F_16s, 1 WB, 2 A10s, 5.3ms
+image 54/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8566_8110.jpg: 416x416 2 F_16s, 1 WB, 2 A10s, 5.3ms
+image 55/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8685_8250.jpg: 416x416 3 F_16s, 1 WB, 1 A10, 5.2ms
+image 56/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_8770_8314.jpg: 416x416 1 F_16, 1 WB, 1 A10, 5.0ms
+image 57/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9731_8593.jpg: 416x416 6 WBs, 5.0ms
+image 58/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9747_8741.jpg: 416x416 1 F_35, 5 WBs, 5.1ms
+image 59/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9823_8446.jpg: 416x416 5 WBs, 5.2ms
+image 60/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9823_8642.jpg: 416x416 6 WBs, 5.2ms
+image 61/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9831_8554.jpg: 416x416 7 WBs, 5.0ms
+image 62/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9856_8598.jpg: 416x416 6 WBs, 5.1ms
+image 63/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/HillAirForceBaseZOom19046mp_9926_8593.jpg: 416x416 6 WBs, 5.1ms
+image 64/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_1992_475.jpg: 416x416 2 WBs, 5.1ms
+image 65/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_2188_671.jpg: 416x416 2 WBs, 5.2ms
+image 66/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_2832_4897.jpg: 416x416 1 F_35, 5.2ms
+image 67/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_3028_4897.jpg: 416x416 1 F_35, 5.4ms
+image 68/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_3669_7055.jpg: 416x416 (no detections), 5.4ms
+image 69/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_3757_2901.jpg: 416x416 2 WBs, 5.5ms
+image 70/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_3873_7259.jpg: 416x416 (no detections), 5.5ms
+image 71/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4256_4698.jpg: 416x416 2 Others, 5.6ms
+image 72/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4256_4894.jpg: 416x416 2 Others, 5.5ms
+image 73/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4392_4797.jpg: 416x416 3 Others, 1 F_15, 5.4ms
+image 74/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4423_4878.jpg: 416x416 3 Others, 1 F_15, 5.2ms
+image 75/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4450_958.jpg: 416x416 1 Other, 5.2ms
+image 76/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4646_958.jpg: 416x416 1 Other, 5.1ms
+image 77/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4792_5001.jpg: 416x416 2 Others, 1 F_15, 5.4ms
+image 78/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/JointBaseLangleyEustisZOom19048mp_4823_5082.jpg: 416x416 2 Others, 1 F_15, 5.2ms
+image 79/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1260_590.jpg: 416x416 3 F_16s, 5.2ms
+image 80/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1266_726.jpg: 416x416 7 F_16s, 5.0ms
+image 81/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1266_922.jpg: 416x416 8 F_16s, 5.1ms
+image 82/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1269_793.jpg: 416x416 6 F_16s, 5.1ms
+image 83/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1274_1125.jpg: 416x416 6 F_16s, 1 Pens, 5.1ms
+image 84/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1277_1192.jpg: 416x416 5 F_16s, 2 Penss, 4.9ms
+image 85/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1323_2324.jpg: 416x416 3 F_16s, 5.1ms
+image 86/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1325_2390.jpg: 416x416 4 F_16s, 5.0ms
+image 87/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1325_2586.jpg: 416x416 7 F_16s, 5.2ms
+image 88/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1338_2856.jpg: 416x416 6 F_16s, 2 Penss, 5.1ms
+image 89/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1456_786.jpg: 416x416 7 F_16s, 5.1ms
+image 90/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1462_922.jpg: 416x416 8 F_16s, 5.1ms
+image 91/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1468_1057.jpg: 416x416 7 F_16s, 1 Pens, 5.1ms
+image 92/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1522_2652.jpg: 416x416 8 F_16s, 5.0ms
+image 93/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1660_990.jpg: 416x416 8 F_16s, 5.1ms
+image 94/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1674_1329.jpg: 416x416 3 F_16s, 1 Other, 5.1ms
+image 95/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1720_2658.jpg: 416x416 9 F_16s, 5.1ms
+image 96/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1726_2856.jpg: 416x416 6 F_16s, 5.1ms
+image 97/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LeeuwardenAirBase_1729_2924.jpg: 416x416 5 F_16s, 5.1ms
+image 98/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_1882_104.jpg: 416x416 (no detections), 5.1ms
+image 99/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2155_9289.jpg: 416x416 6 Others, 4.9ms
+image 100/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2155_9485.jpg: 416x416 6 Others, 5.2ms
+image 101/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2314_9315.jpg: 416x416 6 Others, 5.0ms
+image 102/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2351_9485.jpg: 416x416 6 Others, 5.1ms
+image 103/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2555_9689.jpg: 416x416 2 Others, 5.0ms
+image 104/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2694_300.jpg: 416x416 (no detections), 5.2ms
+image 105/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_2890_300.jpg: 416x416 (no detections), 4.9ms
+image 106/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3223_8377.jpg: 416x416 3 F_35s, 5.2ms
+image 107/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3223_8573.jpg: 416x416 3 F_35s, 5.0ms
+image 108/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3251_8547.jpg: 416x416 3 F_35s, 5.3ms
+image 109/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3257_6877.jpg: 416x416 1 F_16, 5.2ms
+image 110/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3271_7491.jpg: 416x416 11 F_16s, 1 F_35, 5.1ms
+image 111/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3273_7183.jpg: 416x416 7 F_16s, 1 F_35, 5.3ms
+image 112/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3300_7588.jpg: 416x416 10 F_16s, 5.1ms
+image 113/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3308_7298.jpg: 416x416 10 F_16s, 1 F_35, 5.0ms
+image 114/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3309_7183.jpg: 416x416 6 F_16s, 1 F_35, 5.0ms
+image 115/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3309_7379.jpg: 416x416 11 F_16s, 1 F_35, 5.1ms
+image 116/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3343_7299.jpg: 416x416 11 F_16s, 1 F_35, 4.9ms
+image 117/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3381_7245.jpg: 416x416 9 F_16s, 1 F_35, 5.1ms
+image 118/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3442_6691.jpg: 416x416 2 F_16s, 4.9ms
+image 119/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3447_8547.jpg: 416x416 3 F_35s, 5.2ms
+image 120/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3451_7304.jpg: 416x416 12 F_16s, 1 F_35, 5.0ms
+image 121/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3496_7588.jpg: 416x416 10 F_16s, 5.2ms
+image 122/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3574_7499.jpg: 416x416 13 F_16s, 1 F_35, 5.0ms
+image 123/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3624_7788.jpg: 416x416 7 F_16s, 5.2ms
+image 124/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3638_6887.jpg: 416x416 2 F_16s, 4.9ms
+image 125/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3778_7703.jpg: 416x416 5 F_16s, 5.1ms
+image 126/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3851_7704.jpg: 416x416 2 F_16s, 5.1ms
+image 127/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3918_6282.jpg: 416x416 2 F_16s, 5.1ms
+image 128/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_3939_5743.jpg: 416x416 1 F_16, 5.2ms
+image 129/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4070_5796.jpg: 416x416 2 F_16s, 5.1ms
+image 130/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4114_6282.jpg: 416x416 3 F_16s, 5.1ms
+image 131/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4135_5939.jpg: 416x416 4 F_16s, 5.0ms
+image 132/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4314_7046.jpg: 416x416 1 F_35, 5.2ms
+image 133/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4318_6486.jpg: 416x416 1 F_16, 1 Other, 5.1ms
+image 134/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4569_6552.jpg: 416x416 (no detections), 5.1ms
+image 135/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_4773_6756.jpg: 416x416 1 Other, 5.2ms
+image 136/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_5099_4641.jpg: 416x416 1 F_16, 5.2ms
+image 137/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_5099_4837.jpg: 416x416 2 F_16s, 5.1ms
+image 138/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_5295_4837.jpg: 416x416 1 F_16, 5.1ms
+image 139/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_5352_4663.jpg: 416x416 2 F_16s, 5.2ms
+image 140/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/LukeAirForceBaseZOom19050mp_5548_4663.jpg: 416x416 2 F_16s, 5.2ms
+image 141/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1441_3439.jpg: 416x416 4 SU_27s, 5.1ms
+image 142/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1472_4540.jpg: 416x416 4 SU_27s, 5.1ms
+image 143/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1482_4300.jpg: 416x416 7 SU_27s, 5.0ms
+image 144/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1535_4361.jpg: 416x416 6 SU_27s, 5.6ms
+image 145/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1558_3587.jpg: 416x416 4 SU_27s, 5.2ms
+image 146/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1678_4496.jpg: 416x416 7 SU_27s, 5.1ms
+image 147/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1750_4209.jpg: 416x416 5 SU_27s, 5.2ms
+image 148/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_1882_4700.jpg: 416x416 4 SU_27s, 5.0ms
+image 149/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_2675_2972.jpg: 416x416 5 SU_27s, 5.2ms
+image 150/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_2708_2936.jpg: 416x416 5 SU_27s, 5.1ms
+image 151/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_2748_2896.jpg: 416x416 5 SU_27s, 5.1ms
+image 152/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_2871_3168.jpg: 416x416 5 SU_27s, 5.1ms
+image 153/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_2944_3092.jpg: 416x416 6 SU_27s, 5.2ms
+image 154/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_2988_1149.jpg: 416x416 4 SU_27s, 5.0ms
+image 155/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3148_3296.jpg: 416x416 5 SU_27s, 5.0ms
+image 156/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3179_3262.jpg: 416x416 5 SU_27s, 5.2ms
+image 157/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3184_1345.jpg: 416x416 8 SU_27s, 4.9ms
+image 158/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3230_1385.jpg: 416x416 10 SU_27s, 5.1ms
+image 159/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3233_1365.jpg: 416x416 9 SU_27s, 5.1ms
+image 160/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3256_1239.jpg: 416x416 9 SU_27s, 5.1ms
+image 161/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3388_1549.jpg: 416x416 9 SU_27s, 5.0ms
+image 162/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3460_866.jpg: 416x416 5 SU_27s, 5.1ms
+image 163/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3464_1508.jpg: 416x416 9 SU_27s, 5.0ms
+image 164/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3481_1405.jpg: 416x416 10 SU_27s, 5.0ms
+image 165/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3487_835.jpg: 416x416 3 SU_27s, 5.2ms
+image 166/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3513_1141.jpg: 416x416 13 SU_27s, 5.3ms
+image 167/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3533_877.jpg: 416x416 6 SU_27s, 5.2ms
+image 168/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3538_955.jpg: 416x416 6 SU_27s, 5.2ms
+image 169/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3629_489.jpg: 416x416 4 SU_27s, 5.5ms
+image 170/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3629_685.jpg: 416x416 12 SU_27s, 5.5ms
+image 171/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3633_762.jpg: 416x416 13 SU_27s, 5.4ms
+image 172/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3688_427.jpg: 416x416 4 SU_27s, 5.2ms
+image 173/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3691_703.jpg: 416x416 12 SU_27s, 5.2ms
+image 174/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3729_877.jpg: 416x416 12 SU_27s, 5.1ms
+image 175/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3730_470.jpg: 416x416 5 SU_27s, 5.1ms
+image 176/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3730_666.jpg: 416x416 10 SU_27s, 5.1ms
+image 177/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3732_743.jpg: 416x416 14 SU_27s, 5.2ms
+image 178/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3825_685.jpg: 416x416 10 SU_27s, 5.1ms
+image 179/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3863_675.jpg: 416x416 12 SU_27s, 5.1ms
+image 180/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3884_623.jpg: 416x416 10 SU_27s, 5.0ms
+image 181/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_3887_899.jpg: 416x416 12 SU_27s, 5.0ms
+image 182/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_4029_889.jpg: 416x416 10 SU_27s, 5.1ms
+image 183/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_4088_827.jpg: 416x416 8 SU_27s, 5.1ms
+image 184/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/MyrhorodAirBaseZoom=19038mp_4091_1103.jpg: 416x416 4 SU_27s, 5.1ms
+image 185/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_1677_5768.jpg: 416x416 1 SU_27, 1 WB, 5.0ms
+image 186/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_2077_5972.jpg: 416x416 1 WB, 5.1ms
+image 187/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_3813_2740.jpg: 416x416 5 SU_27s, 5.0ms
+image 188/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_3838_2905.jpg: 416x416 7 SU_27s, 5.1ms
+image 189/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_3856_2691.jpg: 416x416 7 SU_27s, 5.2ms
+image 190/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_3955_2740.jpg: 416x416 9 SU_27s, 5.2ms
+image 191/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4091_2548.jpg: 416x416 10 SU_27s, 5.0ms
+image 192/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4113_2320.jpg: 416x416 6 SU_27s, 5.1ms
+image 193/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4113_2516.jpg: 416x416 9 SU_27s, 5.0ms
+image 194/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4151_2740.jpg: 416x416 13 SU_27s, 5.1ms
+image 195/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4162_2256.jpg: 416x416 4 SU_27s, 5.1ms
+image 196/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4162_2452.jpg: 416x416 7 SU_27s, 5.1ms
+image 197/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4213_3140.jpg: 416x416 4 SU_27s, 5.1ms
+image 198/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4289_3040.jpg: 416x416 7 SU_27s, 5.0ms
+image 199/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4333_2485.jpg: 416x416 8 SU_27s, 5.1ms
+image 200/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4444_2820.jpg: 416x416 5 SU_27s, 5.0ms
+image 201/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/QuzhouAirportZoom=19052mp_4562_2656.jpg: 416x416 5 SU_27s, 5.2ms
+image 202/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2008_2462.jpg: 416x416 3 F_35s, 8 Penss, 5.1ms
+image 203/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2125_2280.jpg: 416x416 6 F_35s, 4 Penss, 5.1ms
+image 204/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2127_2254.jpg: 416x416 6 F_35s, 6 Penss, 5.0ms
+image 205/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2164_1464.jpg: 416x416 13 F_35s, 5.2ms
+image 206/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2171_1227.jpg: 416x416 14 F_35s, 2 Penss, 4.9ms
+image 207/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2179_1184.jpg: 416x416 15 F_35s, 2 Penss, 5.1ms
+image 208/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2188_1313.jpg: 416x416 17 F_35s, 1 Pens, 5.0ms
+image 209/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2191_1096.jpg: 416x416 11 F_35s, 1 Pens, 5.2ms
+image 210/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2212_2409.jpg: 416x416 6 F_35s, 3 Penss, 5.1ms
+image 211/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2268_1381.jpg: 416x416 15 F_35s, 5.1ms
+image 212/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2273_1159.jpg: 416x416 14 F_35s, 1 Pens, 5.0ms
+image 213/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2280_1110.jpg: 416x416 11 F_35s, 5.1ms
+image 214/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2285_1082.jpg: 416x416 11 F_35s, 5.1ms
+image 215/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2360_1464.jpg: 416x416 17 F_35s, 5.1ms
+image 216/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2381_1337.jpg: 416x416 15 F_35s, 4.9ms
+image 217/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2384_1313.jpg: 416x416 18 F_35s, 5.1ms
+image 218/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2408_2666.jpg: 416x416 2 F_35s, 5.0ms
+image 219/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2464_1381.jpg: 416x416 14 F_35s, 5.1ms
+image 220/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2473_1329.jpg: 416x416 16 F_35s, 4.9ms
+image 221/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2476_1306.jpg: 416x416 16 F_35s, 5.1ms
+image 222/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2490_1226.jpg: 416x416 17 F_35s, 5.1ms
+image 223/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2527_2458.jpg: 416x416 4 F_35s, 5.3ms
+image 224/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/RAFLakenheathZoom=18036mp_2694_1430.jpg: 416x416 8 F_35s, 5.1ms
+image 225/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_1293_8568.jpg: 416x416 1 Other, 5.0ms
+image 226/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2519_3649.jpg: 416x416 3 F_16s, 3 Penss, 5.1ms
+image 227/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2558_3031.jpg: 416x416 3 F_16s, 5 Penss, 5.0ms
+image 228/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2585_3188.jpg: 416x416 3 F_16s, 3 Penss, 5.1ms
+image 229/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2587_3739.jpg: 416x416 2 F_16s, 2 Penss, 5.2ms
+image 230/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2632_3118.jpg: 416x416 3 F_16s, 3 Penss, 5.2ms
+image 231/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2715_3649.jpg: 416x416 2 F_16s, 3 Penss, 5.1ms
+image 232/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2754_3227.jpg: 416x416 3 F_16s, 4 Penss, 5.1ms
+image 233/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2759_1872.jpg: 416x416 1 F_16, 1 Pens, 5.0ms
+image 234/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2759_2068.jpg: 416x416 1 F_16, 2 Penss, 5.2ms
+image 235/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2781_3188.jpg: 416x416 3 F_16s, 5 Penss, 5.0ms
+image 236/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2828_3314.jpg: 416x416 3 F_16s, 4 Penss, 5.2ms
+image 237/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2928_2140.jpg: 416x416 4 F_16s, 4 Penss, 5.0ms
+image 238/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2958_3431.jpg: 416x416 5 F_16s, 2 Penss, 5.2ms
+image 239/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_2960_1874.jpg: 416x416 2 F_16s, 4 Penss, 5.0ms
+image 240/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3092_2212.jpg: 416x416 6 F_16s, 7 Penss, 5.1ms
+image 241/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3159_2272.jpg: 416x416 6 F_16s, 7 Penss, 5.0ms
+image 242/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3492_2416.jpg: 416x416 3 F_16s, 4 Penss, 5.1ms
+image 243/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3512_2250.jpg: 416x416 4 F_16s, 6 Penss, 4.9ms
+image 244/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3512_2446.jpg: 416x416 4 F_16s, 2 Penss, 5.1ms
+image 245/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3579_2350.jpg: 416x416 4 F_16s, 2 Penss, 5.0ms
+image 246/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3629_4189.jpg: 416x416 (no detections), 5.1ms
+image 247/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3708_2446.jpg: 416x416 3 F_16s, 1 Pens, 5.0ms
+image 248/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3777_1377.jpg: 416x416 1 Other, 3 Penss, 5.0ms
+image 249/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3809_5146.jpg: 416x416 (no detections), 5.0ms
+image 250/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3816_1967.jpg: 416x416 2 F_16s, 1 Pens, 5.0ms
+image 251/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3816_2163.jpg: 416x416 5 F_16s, 5.1ms
+image 252/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3832_1928.jpg: 416x416 2 F_16s, 1 Pens, 5.0ms
+image 253/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_3923_2650.jpg: 416x416 2 F_16s, 5.2ms
+image 254/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4012_2163.jpg: 416x416 4 F_16s, 5.0ms
+image 255/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4013_5350.jpg: 416x416 (no detections), 5.2ms
+image 256/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4028_2124.jpg: 416x416 3 F_16s, 5.0ms
+image 257/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4216_2367.jpg: 416x416 2 F_16s, 5.1ms
+image 258/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4232_2328.jpg: 416x416 2 F_16s, 5.1ms
+image 259/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4510_2380.jpg: 416x416 1 F_16, 5.0ms
+image 260/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4510_2576.jpg: 416x416 1 F_16, 1 Pens, 4.9ms
+image 261/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4707_2274.jpg: 416x416 3 F_16s, 1 Pens, 5.3ms
+image 262/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4719_2220.jpg: 416x416 2 F_16s, 1 Pens, 5.0ms
+image 263/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4719_2416.jpg: 416x416 3 F_16s, 1 Pens, 4.9ms
+image 264/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4745_3546.jpg: 416x416 1 F_16, 1 Pens, 5.2ms
+image 265/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4745_3742.jpg: 416x416 3 F_16s, 4 Penss, 5.0ms
+image 266/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4910_2780.jpg: 416x416 1 F_16, 4 Penss, 5.2ms
+image 267/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_4941_3742.jpg: 416x416 2 F_16s, 4 Penss, 5.0ms
+image 268/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_5082_2822.jpg: 416x416 1 F_16, 4 Penss, 5.2ms
+image 269/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_5145_3946.jpg: 416x416 1 F_16, 1 Pens, 5.1ms
+image 270/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/avainoairbase_5482_3222.jpg: 416x416 1 F_16, 4 Penss, 5.1ms
+image 271/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_2950_7962.jpg: 416x416 (no detections), 5.0ms
+image 272/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3244_10300.jpg: 416x416 4 Others, 3 A10s, 5.2ms
+image 273/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3245_10496.jpg: 416x416 4 Others, 3 A10s, 5.0ms
+image 274/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3324_10292.jpg: 416x416 6 Others, 3 A10s, 5.2ms
+image 275/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3389_10283.jpg: 416x416 6 Others, 3 A10s, 5.0ms
+image 276/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3475_10491.jpg: 416x416 5 Others, 3 A10s, 5.1ms
+image 277/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3540_10487.jpg: 416x416 5 Others, 3 A10s, 5.1ms
+image 278/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3585_10479.jpg: 416x416 5 Others, 3 A10s, 5.1ms
+image 279/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3614_1565.jpg: 416x416 (no detections), 5.0ms
+image 280/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3645_10700.jpg: 416x416 5 Others, 3 A10s, 5.1ms
+image 281/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3679_10695.jpg: 416x416 5 Others, 2 A10s, 4.9ms
+image 282/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_3772_10686.jpg: 416x416 4 Others, 5.1ms
+image 283/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4298_3965.jpg: 416x416 3 F_35s, 1 Pens, 5.0ms
+image 284/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4584_3979.jpg: 416x416 9 F_35s, 5.1ms
+image 285/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4617_4167.jpg: 416x416 10 F_35s, 5.0ms
+image 286/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4693_5739.jpg: 416x416 1 F_16, 2 F_35s, 5.1ms
+image 287/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4740_4174.jpg: 416x416 9 F_35s, 5.4ms
+image 288/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4780_4175.jpg: 416x416 9 F_35s, 5.5ms
+image 289/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4821_4177.jpg: 416x416 8 F_35s, 5.5ms
+image 290/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4821_4371.jpg: 416x416 8 F_35s, 5.5ms
+image 291/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4861_4373.jpg: 416x416 7 F_35s, 5.5ms
+image 292/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_4984_4379.jpg: 416x416 4 F_35s, 5.6ms
+image 293/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_5033_6027.jpg: 416x416 1 F_16, 2 F_35s, 1 A10, 5.3ms
+image 294/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_5237_6231.jpg: 416x416 1 F_16, 1 A10, 5.3ms
+image 295/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_5249_3875.jpg: 416x416 1 F_16, 1 Other, 5.0ms
+image 296/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_5283_3882.jpg: 416x416 1 F_16, 1 Other, 5.1ms
+image 297/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_5494_6362.jpg: 416x416 1 Other, 5.0ms
+image 298/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_5690_6362.jpg: 416x416 1 Other, 5.2ms
+image 299/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_6092_6585.jpg: 416x416 1 A10, 5.1ms
+image 300/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_6241_1166.jpg: 416x416 (no detections), 5.1ms
+image 301/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_6288_6781.jpg: 416x416 1 A10, 5.0ms
+image 302/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_7037_6927.jpg: 416x416 1 Other, 5.2ms
+image 303/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_7037_7123.jpg: 416x416 1 Other, 5.2ms
+image 304/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_7233_7123.jpg: 416x416 (no detections), 5.2ms
+image 305/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_7743_4972.jpg: 416x416 (no detections), 5.0ms
+image 306/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/hillairforce_7743_5168.jpg: 416x416 (no detections), 5.0ms
+image 307/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_1205_9067.jpg: 416x416 1 WB, 5.0ms
+image 308/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_1978_9435.jpg: 416x416 4 F_15s, 5.0ms
+image 309/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2033_9677.jpg: 416x416 1 Other, 5 F_15s, 5.1ms
+image 310/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2130_9932.jpg: 416x416 1 Other, 5 F_15s, 5.0ms
+image 311/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2167_9240.jpg: 416x416 2 F_15s, 5.2ms
+image 312/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2406_9858.jpg: 416x416 1 Other, 5 F_15s, 4.9ms
+image 313/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2455_9346.jpg: 416x416 4 F_15s, 5.0ms
+image 314/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2653_9866.jpg: 416x416 (no detections), 4.9ms
+image 315/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2659_9550.jpg: 416x416 2 F_15s, 5.1ms
+image 316/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2669_9844.jpg: 416x416 (no detections), 5.1ms
+image 317/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2849_10062.jpg: 416x416 (no detections), 10.3ms
+image 318/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2915_9405.jpg: 416x416 1 Other, 5.3ms
+image 319/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_2915_9601.jpg: 416x416 1 Other, 5.3ms
+image 320/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_3069_10244.jpg: 416x416 (no detections), 5.1ms
+image 321/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_3111_9601.jpg: 416x416 1 Other, 5.2ms
+image 322/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_4546_4643.jpg: 416x416 1 F_15, 5.0ms
+image 323/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_4564_3863.jpg: 416x416 1 Other, 5.2ms
+image 324/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/komatsuairbase_879_8734.jpg: 416x416 3 WBs, 5.0ms
+image 325/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1028_4680.jpg: 416x416 (no detections), 5.2ms
+image 326/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1144_3764.jpg: 416x416 3 WBs, 5.0ms
+image 327/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1224_4680.jpg: 416x416 (no detections), 5.2ms
+image 328/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1379_4010.jpg: 416x416 2 WBs, 5.0ms
+image 329/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1521_9751.jpg: 416x416 (no detections), 5.2ms
+image 330/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1701_3274.jpg: 416x416 3 WBs, 5.0ms
+image 331/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1711_3333.jpg: 416x416 3 WBs, 5.2ms
+image 332/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1725_9955.jpg: 416x416 (no detections), 5.0ms
+image 333/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1897_3274.jpg: 416x416 4 WBs, 5.2ms
+image 334/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1897_3307.jpg: 416x416 4 WBs, 5.0ms
+image 335/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_1982_7523.jpg: 416x416 7 F_15s, 5.2ms
+image 336/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_2191_7484.jpg: 416x416 7 F_15s, 5.1ms
+image 337/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_2241_7327.jpg: 416x416 6 F_15s, 5.2ms
+image 338/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_2372_7760.jpg: 416x416 3 F_15s, 5.0ms
+image 339/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_2382_7727.jpg: 416x416 3 F_15s, 5.2ms
+image 340/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_3184_8795.jpg: 416x416 4 Others, 1 F_15, 5.0ms
+image 341/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_3289_3910.jpg: 416x416 1 F_15, 5.3ms
+image 342/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_3380_8795.jpg: 416x416 3 Others, 1 F_15, 5.2ms
+image 343/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_3584_8999.jpg: 416x416 2 Others, 1 F_15, 5.2ms
+image 344/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_4113_11655.jpg: 352x416 (no detections), 5.6ms
+image 345/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_55_11431.jpg: 416x416 (no detections), 5.5ms
+image 346/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/langleyairbase_948_3764.jpg: 416x416 2 WBs, 5.2ms
+image 347/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_1819_10083.jpg: 416x416 1 F_16, 2 Others, 5.2ms
+image 348/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_1825_10065.jpg: 416x416 1 F_16, 1 Other, 5.0ms
+image 349/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_1825_10261.jpg: 416x416 1 WB, 1 Other, 5.2ms
+image 350/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_1843_10287.jpg: 416x416 1 WB, 1 Other, 5.0ms
+image 351/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2021_10261.jpg: 416x416 1 WB, 1 Other, 5.2ms
+image 352/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2238_4866.jpg: 416x416 5 F_16s, 1 Other, 1 Pens, 5.0ms
+image 353/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2243_4471.jpg: 416x416 8 F_16s, 5.3ms
+image 354/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2244_4329.jpg: 416x416 5 F_16s, 5.1ms
+image 355/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2245_4381.jpg: 416x416 7 F_16s, 5.2ms
+image 356/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2246_4434.jpg: 416x416 8 F_16s, 5.1ms
+image 357/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2272_5565.jpg: 416x416 3 F_16s, 5.3ms
+image 358/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2275_5717.jpg: 416x416 6 F_16s, 5.0ms
+image 359/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2279_2041.jpg: 416x416 (no detections), 5.2ms
+image 360/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2279_2237.jpg: 416x416 (no detections), 4.9ms
+image 361/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2279_5820.jpg: 416x416 8 F_16s, 5.1ms
+image 362/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2279_5836.jpg: 416x416 8 F_16s, 5.1ms
+image 363/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2279_6016.jpg: 416x416 9 F_16s, 1 Pens, 5.2ms
+image 364/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2437_4418.jpg: 416x416 7 F_16s, 4.9ms
+image 365/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2442_4630.jpg: 416x416 8 F_16s, 1 Pens, 5.2ms
+image 366/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2446_4788.jpg: 416x416 8 F_16s, 1 Other, 2 Penss, 5.1ms
+image 367/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2447_1833.jpg: 416x416 (no detections), 5.3ms
+image 368/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2471_5863.jpg: 416x416 9 F_16s, 5.0ms
+image 369/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2475_2237.jpg: 416x416 (no detections), 5.2ms
+image 370/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2475_6032.jpg: 416x416 8 F_16s, 1 Pens, 5.0ms
+image 371/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2477_6119.jpg: 416x416 7 F_16s, 1 Pens, 5.2ms
+image 372/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/leeuwardenairbase_2641_4622.jpg: 416x416 8 F_16s, 4.9ms
+image 373/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_1484_10566.jpg: 416x416 3 SU_27s, 5.2ms
+image 374/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_1655_11080.jpg: 416x416 5 SU_27s, 5.0ms
+image 375/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_1667_10816.jpg: 416x416 4 SU_27s, 5.2ms
+image 376/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_1680_10762.jpg: 416x416 3 SU_27s, 5.2ms
+image 377/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_205_6281.jpg: 416x416 1 Other, 5.2ms
+image 378/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_233_13898.jpg: 416x416 (no detections), 5.0ms
+image 379/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_2714_7366.jpg: 416x416 4 SU_27s, 5.2ms
+image 380/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_2734_7766.jpg: 416x416 3 SU_27s, 5.1ms
+image 381/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_2898_7503.jpg: 416x416 10 SU_27s, 5.2ms
+image 382/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_2903_7198.jpg: 416x416 8 SU_27s, 5.1ms
+image 383/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_2930_7766.jpg: 416x416 7 SU_27s, 5.2ms
+image 384/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_2939_7360.jpg: 416x416 9 SU_27s, 5.1ms
+image 385/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_37_13898.jpg: 416x416 (no detections), 5.3ms
+image 386/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_731_16333.jpg: 416x416 (no detections), 5.1ms
+image 387/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/myrhorodairbase_731_16529.jpg: 416x416 (no detections), 5.2ms
+image 388/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1434_3877.jpg: 416x416 5 F_15s, 5.0ms
+image 389/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1461_4011.jpg: 416x416 11 F_15s, 5.1ms
+image 390/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1493_4200.jpg: 416x416 12 F_15s, 5.0ms
+image 391/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1498_3860.jpg: 416x416 7 F_15s, 5.2ms
+image 392/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1498_4056.jpg: 416x416 12 F_15s, 5.0ms
+image 393/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1524_4192.jpg: 416x416 12 F_15s, 5.2ms
+image 394/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1556_4184.jpg: 416x416 12 F_15s, 5.1ms
+image 395/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1563_3845.jpg: 416x416 6 F_15s, 5.3ms
+image 396/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1588_3980.jpg: 416x416 14 F_15s, 5.0ms
+image 397/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1623_4215.jpg: 416x416 12 F_15s, 5.2ms
+image 398/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1657_4207.jpg: 416x416 12 F_15s, 5.5ms
+image 399/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1752_4184.jpg: 416x416 12 F_15s, 5.6ms
+image 400/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1807_4885.jpg: 416x416 2 Others, 2 F_15s, 5.3ms
+image 401/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1816_4738.jpg: 416x416 1 Other, 2 F_15s, 5.4ms
+image 402/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1827_4419.jpg: 416x416 6 F_15s, 5.5ms
+image 403/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1859_4396.jpg: 416x416 6 F_15s, 5.4ms
+image 404/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1898_4260.jpg: 416x416 13 F_15s, 5.5ms
+image 405/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_1924_4396.jpg: 416x416 6 F_15s, 5.5ms
+image 406/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_2011_5089.jpg: 416x416 1 Other, 1 F_15, 5.4ms
+image 407/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_2040_639.jpg: 416x416 1 Other, 5.4ms
+image 408/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_2040_835.jpg: 416x416 1 Other, 5.4ms
+image 409/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/nyutabruaurbase_355_1172.jpg: 416x416 (no detections), 5.6ms
+image 410/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_19-11- rAFALE_EGYPT_x2433_y3320.png: 416x416 (no detections), 5.6ms
+image 411/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_19-11- rAFALE_EGYPT_x2494_y3336.png: 416x416 (no detections), 5.4ms
+image 412/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_19-11- rAFALE_EGYPT_x2850_y2785.png: 416x416 1 Pens, 1 Rafale, 5.2ms
+image 413/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x-68_y898.jpg: 416x416 (no detections), 5.1ms
+image 414/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x-84_y1067.jpg: 416x416 (no detections), 5.2ms
+image 415/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x2033_y3037.jpg: 416x416 2 Rafales, 5.2ms
+image 416/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x2115_y3081.jpg: 416x416 2 Rafales, 5.1ms
+image 417/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x2162_y2973.jpg: 416x416 2 Rafales, 5.2ms
+image 418/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x2199_y3029.jpg: 416x416 2 Rafales, 5.1ms
+image 419/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x2850_y2741.jpg: 416x416 1 Rafale, 5.2ms
+image 420/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x2951_y2261.jpg: 416x416 1 Pens, 1 Rafale, 5.2ms
+image 421/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x3033_y3460.jpg: 416x416 2 Rafales, 5.0ms
+image 422/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x3040_y2238.jpg: 416x416 2 Penss, 1 Rafale, 5.1ms
+image 423/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_RAFALE_EGYPT 6_x3310_y3060.jpg: 416x416 1 Pens, 5.1ms
+image 424/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x1395_y4051.png: 416x416 1 Other, 3 Penss, 5.1ms
+image 425/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x1987_y3280.png: 416x416 3 F_16s, 3 Penss, 5.2ms
+image 426/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x2842_y5247.png: 416x416 1 F_16, 2 Penss, 5.2ms
+image 427/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x3253_y5275.png: 416x416 2 F_16s, 5 Penss, 5.1ms
+image 428/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x3829_y4508.png: 416x416 2 F_16s, 6 Penss, 5.1ms
+image 429/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x5754_y3053.png: 416x416 (no detections), 5.2ms
+image 430/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x6162_y2835.png: 416x416 (no detections), 5.1ms
+image 431/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avainoairbase_x6982_y2459.png: 416x416 (no detections), 4.9ms
+image 432/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4274_y3890.png: 416x416 (no detections), 4.9ms
+image 433/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4320_y4050.png: 416x416 (no detections), 5.0ms
+image 434/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4355_y4003.png: 416x416 (no detections), 5.0ms
+image 435/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4362_y3999.png: 416x416 (no detections), 5.1ms
+image 436/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4377_y3891.png: 416x416 (no detections), 5.0ms
+image 437/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4467_y4004.png: 416x416 (no detections), 5.1ms
+image 438/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4476_y4074.png: 416x416 1 F_16, 1 Pens, 5.0ms
+image 439/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x4479_y4067.png: 416x416 1 F_16, 1 Pens, 5.2ms
+image 440/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9386_y1340.png: 416x416 (no detections), 5.0ms
+image 441/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9396_y1279.png: 416x416 (no detections), 5.1ms
+image 442/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9454_y1247.png: 416x416 1 Other, 4.9ms
+image 443/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9474_y1441.png: 416x416 (no detections), 5.0ms
+image 444/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9480_y1297.png: 416x416 (no detections), 5.1ms
+image 445/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9485_y1234.png: 416x416 (no detections), 5.1ms
+image 446/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9490_y1285.png: 416x416 (no detections), 5.2ms
+image 447/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9515_y1394.png: 416x416 (no detections), 4.9ms
+image 448/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9527_y1237.png: 416x416 1 Other, 5.2ms
+image 449/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9567_y1432.png: 416x416 (no detections), 5.0ms
+image 450/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9591_y1422.png: 416x416 (no detections), 5.1ms
+image 451/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9593_y1359.png: 416x416 (no detections), 5.1ms
+image 452/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_avianooooo_x9623_y1324.png: 416x416 (no detections), 5.1ms
+image 453/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x2146_y689.jpg: 416x416 (no detections), 5.2ms
+image 454/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x2505_y3431.jpg: 416x416 2 Penss, 5.0ms
+image 455/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x2551_y2405.jpg: 416x416 1 Pens, 1 Rafale, 5.0ms
+image 456/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x2571_y2467.jpg: 416x416 1 Pens, 1 Rafale, 5.1ms
+image 457/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x2910_y2028.jpg: 416x416 2 Penss, 4.9ms
+image 458/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x3200_y2206.jpg: 416x416 2 Penss, 1 Rafale, 5.1ms
+image 459/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x3437_y1950.jpg: 416x416 (no detections), 5.1ms
+image 460/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x3468_y1960.jpg: 416x416 (no detections), 4.9ms
+image 461/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_egypt_x775_y895.jpg: 416x416 (no detections), 5.0ms
+image 462/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x1082_y1528.png: 416x416 (no detections), 5.0ms
+image 463/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x1800_y3987.png: 416x416 1 Pens, 5.2ms
+image 464/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x1951_y1578.png: 416x416 (no detections), 5.0ms
+image 465/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x223_y1334.png: 416x416 (no detections), 5.2ms
+image 466/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x2591_y1798.png: 416x416 (no detections), 5.3ms
+image 467/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x647_y1473.png: 416x416 (no detections), 5.1ms
+image 468/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x647_y784.png: 416x416 (no detections), 5.0ms
+image 469/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x731_y2603.png: 416x416 (no detections), 5.0ms
+image 470/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x760_y3043.png: 416x416 (no detections), 5.0ms
+image 471/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_hillairforce_x778_y3553.png: 416x416 (no detections), 5.1ms
+image 472/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_leeuwardenairbase_x3066_y2574.png: 416x416 (no detections), 4.9ms
+image 473/473 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images/slice_myrhorodairbase_x2298_y3770.png: 416x416 (no detections), 5.1ms
+Speed: 0.9ms preprocess, 5.2ms inference, 0.5ms postprocess per image at shape (1, 3, 416, 416)
+Results saved to /home/faryal/Downloads/yolov10/yolov10/runs/detect/predict2
