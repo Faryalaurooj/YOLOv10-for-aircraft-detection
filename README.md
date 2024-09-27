@@ -70,5 +70,11 @@ Copy best.pt file from /home/faryal/Downloads/yolov10/yolov10/runs/detect/train2
 
 it will validate the results , check the results in validation results file. 
 
+## Predict 
+To run the prediction on test images run this command 
 
+
+`yolo predict model=/home/faryal/Downloads/yolov10/yolov10/best.pt source=/home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/test/images`
+
+check the results in test_results file
 
