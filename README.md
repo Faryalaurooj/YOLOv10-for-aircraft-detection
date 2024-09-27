@@ -49,10 +49,12 @@ or
 
 
 ## Validation
-Copy best.pt file from train/runs folder in the main folder and then run the command 
+Copy best.pt file from /home/faryal/Downloads/yolov10/yolov10/runs/detect/train20/weights/ folder into the main folder /home/faryal/Downloads/yolov10/yolov10/ and then run the command 
 
 
 `yolo val model=/home/faryal/Downloads/yolov10/yolov10/best.pt data=aircraft.yaml batch=16`
+
+
 
 it will validate the results , check the results in validation results file. 
 
