@@ -46,3 +46,15 @@ or
 `model = YOLOv10('yolov10{n/s/m/b/l/x}.pt')`
 
 `model.train(data='coco.yaml', epochs=500, batch=256, imgsz=640)`
+
+
+## Validation
+Copy best.pt file from train/runs folder in the main folder and then run the command 
+
+
+`yolo val model=/home/faryal/Downloads/yolov10/yolov10/best.pt data=aircraft.yaml batch=16`
+
+it will validate the results , check the results in validation results file. 
+
+
+
