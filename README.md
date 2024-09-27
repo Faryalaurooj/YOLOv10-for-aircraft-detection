@@ -21,7 +21,7 @@ Clone the repo
 For training from scratch, we need to place our dataset in the folder /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/datasets/aircraft_images and /aircraft_labels  and also copy obj.names in this folder. Then run the code split.py from this folder. It will create an output directory at location /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/train/images and /labels and similarly for val/images and /labels and similarly for test/images and /labels. We have split our dataset in 60 ; 30 ; 10 percentage into train val and test folders:
 
 
-'python split.py'
+`python split.py`
 
 
 
