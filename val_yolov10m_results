@@ -1,0 +1,17 @@
+yolo val model=/home/faryal/Downloads/yolov10/yolov10/bestyolov10m.pt data=aircraft.yaml batch=16
+Ultralytics YOLOv8.1.34 🚀 Python-3.9.19 torch-2.0.1+cu117 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+YOLOv10m summary (fused): 369 layers, 16461964 parameters, 0 gradients, 63.5 GFLOPs
+val: Scanning /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output/val/labels.cache... 1022 images, 237 backgrounds, 0 corrupt: 100%|██████████| 1150/1150 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 72/72 [00:08<00:00,  8.53it/s]
+                   all       1150       4618      0.959      0.991      0.986      0.795
+                  F_16       1150       1117      0.974      0.991      0.991      0.816
+                  F_35       1150        875      0.989      0.993      0.994       0.76
+                 SU_27       1150       1101      0.991      0.998      0.992      0.796
+                    WB       1150        171      0.988          1      0.995       0.85
+                 Other       1150        322      0.969      0.994      0.989      0.755
+                   A10       1150        281       0.85      0.948      0.939      0.749
+                  F_15       1150        166      0.997          1      0.995      0.782
+                  Pens       1150         35      0.875          1      0.982      0.844
+                  Ammo       1150        550      0.995      0.997      0.995      0.801
+Speed: 0.2ms preprocess, 4.9ms inference, 0.0ms loss, 0.1ms postprocess per image
+Results saved to /home/faryal/Downloads/yolov10/yolov10/runs/detect/val
