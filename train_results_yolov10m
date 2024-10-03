@@ -42,6 +42,7 @@ Starting training for 500 epochs...
 
 
 
+
 500 epochs completed in 5.807 hours.
 Optimizer stripped from /home/faryal/Downloads/yolov10/yolov10/runs/detect/train22/weights/last.pt, 33.5MB
 Optimizer stripped from /home/faryal/Downloads/yolov10/yolov10/runs/detect/train22/weights/best.pt, 33.5MB
