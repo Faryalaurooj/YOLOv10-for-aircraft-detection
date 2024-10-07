@@ -37,7 +37,7 @@ For training from scratch, we need to place our dataset in the folder /home/fary
 Then from the directory /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output run in terminal ; 
 
 
-`yolo detect train data=aircraft.yaml model=yolov10s.yaml epochs=100  batch=32  imgsz=416 device=0`
+`yolo detect train data=aircraft.yaml model=yolov10s.yaml epochs=100  batch=16  imgsz=416 device=0,1`
 
 It will start training the yolov10 model on your custom data
 
