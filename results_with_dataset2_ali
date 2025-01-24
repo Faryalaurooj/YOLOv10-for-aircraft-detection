@@ -233,4 +233,101 @@ Speed: 0.9ms preprocess, 13.7ms inference, 0.7ms postprocess per image at shape 
 Results saved to runs/detect/predict
 💡 Learn more at https://docs.ultralytics.com/modes/predict
 
+With output3 (train images have all the images test and val as well)
+
+TRAIN
+
+(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/mod(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/models/(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralyt(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/models/yolov10$ yolo detect train data=aircraft3.yaml model=yolov10x.yaml epochs=100  batch=16  imgsz=416 device=0,1
+New https://pypi.org/project/ultralytics/8.3.66 available 😃 Update with 'pip install -U ultralytics'
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+
+100 epochs completed in 0.334 hours.
+Optimizer stripped from runs/detect/train24/weights/last.pt, 64.1MB
+Optimizer stripped from runs/detect/train24/weights/best.pt, 64.1MB
+
+Validating runs/detect/train24/weights/best.pt...
+WARNING ⚠️ validating an untrained model YAML will result in 0 mAP.
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+YOLOv10x summary (fused): 503 layers, 31,599,488 parameters, 0 gradients, 169.9 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 
+                   all        103        327      0.856      0.892       0.94      0.647
+                  F_16         31         77      0.845      0.779       0.92       0.59
+                  F_35         11         21       0.86          1      0.984      0.666
+                  F_15         11         36      0.893      0.931      0.939      0.641
+                    WB         17         27      0.888      0.963       0.97      0.798
+                Mig_21         15         63      0.813      0.667      0.824      0.442
+                   A10         17         59      0.942      0.949      0.988      0.739
+                  Heli         10         31      0.844      0.873      0.943      0.595
+                 Su_27          3         13      0.759      0.972      0.949      0.708
+Speed: 0.2ms preprocess, 6.3ms inference, 0.0ms loss, 0.3ms postprocess per image
+Results saved to runs/detect/train24
+
+
+VALIDATION
+
+(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/models/yolov10$ yolo val model=best3.pt data=aircraft3.yaml batch=16
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+YOLOv10x summary (fused): 503 layers, 31,599,488 parameters, 0 gradients, 169.9 GFLOPs
+val: Scanning /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output3/v
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):
+                   all        103        327      0.856      0.892       0.94      0.647
+                  F_16         31         77      0.845      0.776       0.92      0.591
+                  F_35         11         21       0.86          1      0.984      0.666
+                  F_15         11         36      0.893      0.931      0.939      0.638
+                    WB         17         27      0.888      0.963       0.97      0.799
+                Mig_21         15         63      0.813      0.667      0.825      0.444
+                   A10         17         59      0.942      0.949      0.988      0.733
+                  Heli         10         31      0.844      0.874      0.943      0.594
+                 Su_27          3         13       0.76      0.974      0.949      0.708
+Speed: 1.2ms preprocess, 13.4ms inference, 0.0ms loss, 0.1ms postprocess per image
+Results saved to runs/detect/val2
+💡 Learn more at https://docs.ultralytics.com/modes/val
+
+PREDICT
+(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/models/yolov10$ yolo predict model=best2.pt source=output2/test/images
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+YOLOv10x summary (fused): 503 layers, 31,599,488 parameters, 0 gradients, 169.9 GFLOPs
+
+image 1/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/A10-11.png: 416x416 3 Helis, 31.9ms
+image 2/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/A10-23.png: 416x416 (no detections), 15.3ms
+image 3/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/A10-29.png: 416x416 6 A10s, 15.2ms
+image 4/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/F15(UK)-3.png: 416x416 1 F_15, 15.2ms
+image 5/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/F15(UK)-6.png: 416x416 1 F_15, 15.2ms
+image 6/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/F16(italy)-16.png: 416x416 1 F_16, 15.2ms
+image 7/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/F35(NE)-4.png: 416x416 2 F_35s, 15.2ms
+image 8/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/Mig21(Romania)-1.png: 416x416 3 WBs, 15.1ms
+image 9/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/Mig21(Romania)-19.png: 416x416 3 Mig_21s, 15.1ms
+image 10/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/Mig21(Romania)-21.png: 416x416 5 Mig_21s, 15.1ms
+image 11/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_ethopia merged_x1942_y3189.png: 416x416 12 Mig_21s, 1 Su_27, 13.6ms
+image 12/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_ethopia merged_x2972_y4603.png: 416x416 8 Mig_21s, 13.1ms
+image 13/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill air base (6-2024)_x12769_y5500.png: 416x416 3 F_35s, 13.1ms
+image 14/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill air base (6-2024)_x13821_y7558.png: 416x416 4 F_35s, 13.1ms
+image 15/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill air base (6-2024)_x15789_y7606.png: 416x416 (no detections), 13.0ms
+image 16/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill air base (6-2024)_x16390_y8711.png: 416x416 1 F_15, 1 A10, 13.0ms
+image 17/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base (7-2016)_x2583_y3053.png: 416x416 1 F_16, 13.0ms
+image 18/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base (7-2016)_x4380_y2986.png: 416x416 (no detections), 13.0ms
+image 19/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base (7-2016)_x6066_y6025.png: 416x416 6 F_16s, 2 WBs, 3 A10s, 13.0ms
+image 20/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base (7-2016)_x6103_y6064.png: 416x416 4 F_16s, 1 F_35, 2 WBs, 1 A10, 1 Su_27, 13.0ms
+image 21/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base (7-2016)_x6187_y6098.png: 416x416 2 F_16s, 3 WBs, 1 A10, 13.0ms
+image 22/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base 5-2022_x13365_y7442.png: 416x416 3 F_16s, 4 F_35s, 13.0ms
+image 23/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base 5-2022_x15630_y7613.png: 416x416 2 A10s, 13.0ms
+image 24/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_hill base 7-2019_x2556_y3206.png: 416x416 2 F_35s, 2 A10s, 12.9ms
+image 25/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_miswa japan 8-2023_x2814_y2434.png: 416x416 1 F_16, 12.9ms
+image 26/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_miswa japan 8-2023_x2837_y2588.png: 416x416 (no detections), 15.2ms
+image 27/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_miswa japan 8-2023_x5237_y1903.png: 416x416 1 F_16, 13.0ms
+image 28/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_nevada (12- 2022)_x6208_y2549.png: 416x416 13 A10s, 12.9ms
+image 29/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_nevada (5-2022)_x4682_y3947.png: 416x416 2 F_16s, 1 F_15, 12.9ms
+image 30/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_nevada (5-2022)_x5941_y2994.png: 416x416 4 F_16s, 13.0ms
+image 31/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_nevada (5-2022)_x9676_y3846.png: 416x416 1 A10, 13.0ms
+image 32/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_ramstein germany 12-2024_x11659_y4088.png: 416x416 1 WB, 13.0ms
+image 33/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_ramstein germany 12-2024_x3912_y4284.png: 416x416 1 WB, 13.0ms
+image 34/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_ramstein germany 12-2024_x9083_y3733.png: 416x416 (no detections), 13.0ms
+image 35/35 /home/faryal/Downloads/yolov10/yolov10/ultralytics/models/yolov10/output2/test/images/slice_uk 6-2023_x2376_y1705.png: 416x416 1 F_35, 13.0ms
+Speed: 1.0ms preprocess, 14.2ms inference, 0.9ms postprocess per image at shape (1, 3, 416, 416)
+Results saved to runs/detect/predict2
+💡 Learn more at https://docs.ultralytics.com/modes/predict
+
+
 
