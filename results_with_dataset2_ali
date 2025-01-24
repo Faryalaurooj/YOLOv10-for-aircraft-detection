@@ -1,0 +1,92 @@
+(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/models/yolov10$ yolo detect train data=aircraft2.yaml model=yolov10s.yaml epochs=100  batch=16  imgsz=416 device=0,1
+New https://pypi.org/project/ultralytics/8.3.65 available 😃 Update with 'pip install -U ultralytics'
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+engine/trainer: task=detect, mode=train, model=yolov10s.yaml, data=aircraft2.yaml, epochs=100, time=None, patience=100, batch=16, imgsz=416, save=True, save_period=-1, cache=False, device=(0, 1), workers=8, project=None, name=train19, exist_ok=False, pretrained=True, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=True, opset=None, workspace=None, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, copy_paste_mode=flip, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=runs/detect/train19
+Overriding model.yaml nc=80 with nc=8
+
+
+100 epochs completed in 0.077 hours.
+Optimizer stripped from runs/detect/train19/weights/last.pt, 16.5MB
+Optimizer stripped from runs/detect/train19/weights/best.pt, 16.5MB
+
+Validating runs/detect/train19/weights/best.pt...
+WARNING ⚠️ validating an untrained model YAML will result in 0 mAP.
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+YOLOv10s summary (fused): 293 layers, 8,041,152 parameters, 0 gradients, 24.5 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 7/7 [00:01<00:00,  5.37it/s]
+                   all        103        327      0.581      0.653      0.645      0.379
+                  F_16         31         77       0.78      0.368      0.621      0.283
+                  F_35         11         21      0.374      0.952      0.707      0.426
+                  F_15         11         36      0.499        0.5      0.478      0.232
+                    WB         17         27       0.61      0.667      0.709      0.449
+                Mig_21         15         63      0.459      0.498      0.462      0.187
+                   A10         17         59      0.641      0.898      0.862      0.602
+                  Heli         10         31      0.764      0.418      0.481      0.272
+                 Su_27          3         13      0.524      0.923      0.839      0.577
+Speed: 0.1ms preprocess, 6.0ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to runs/detect/train19
+
+
+(yolov10) faryal@faryal-pc:~/Downloads/yolov10/yolov10/ultralytics/models/yolov10$ yolo detect train data=aircraft2.yaml model=yolov10m.yaml epochs=100  batch=16  imgsz=416 device=0,1
+New https://pypi.org/project/ultralytics/8.3.65 available 😃 Update with 'pip install -U ultralytics'
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+engine/trainer: task=detect, mode=train, model=yolov10m.yaml, data=aircraft2.yaml, epochs=100, time=None, patience=100, batch=16, imgsz=416, save=True, save_period=-1, cache=False, device=(0, 1), workers=8, project=None, name=train20, exist_ok=False, pretrained=True, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=True, opset=None, workspace=None, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, copy_paste_mode=flip, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=runs/detect/train20
+Overriding model.yaml nc=80 with nc=8
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1      1392  ultralytics.nn.modules.conv.Conv             [3, 48, 3, 2]                 
+  1                  -1  1     41664  ultralytics.nn.modules.conv.Conv             [48, 96, 3, 2]                
+  2                  -1  2    111360  ultralytics.nn.modules.block.C2f             [96, 96, 2, True]             
+  3                  -1  1    166272  ultralytics.nn.modules.conv.Conv             [96, 192, 3, 2]               
+  4                  -1  4    813312  ultralytics.nn.modules.block.C2f             [192, 192, 4, True]           
+  5                  -1  1     78720  ultralytics.nn.modules.block.SCDown          [192, 384, 3, 2]              
+  6                  -1  4   3248640  ultralytics.nn.modules.block.C2f             [384, 384, 4, True]           
+  7                  -1  1    228672  ultralytics.nn.modules.block.SCDown          [384, 576, 3, 2]              
+  8                  -1  2   1689984  ultralytics.nn.modules.block.C2fCIB          [576, 576, 2, True]           
+  9                  -1  1    831168  ultralytics.nn.modules.block.SPPF            [576, 576, 5]                 
+ 10                  -1  1   1253088  ultralytics.nn.modules.block.PSA             [576, 576]                    
+ 11                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 12             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 13                  -1  2   1993728  ultralytics.nn.modules.block.C2f             [960, 384, 2]                 
+ 14                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 15             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 16                  -1  2    517632  ultralytics.nn.modules.block.C2f             [576, 192, 2]                 
+ 17                  -1  1    332160  ultralytics.nn.modules.conv.Conv             [192, 192, 3, 2]              
+ 18            [-1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 19                  -1  2    831744  ultralytics.nn.modules.block.C2fCIB          [576, 384, 2, True]           
+ 20                  -1  1    152448  ultralytics.nn.modules.block.SCDown          [384, 384, 3, 2]              
+ 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 22                  -1  2   1911168  ultralytics.nn.modules.block.C2fCIB          [960, 576, 2, True]           
+ 23        [16, 19, 22]  1   2290240  ultralytics.nn.modules.head.v10Detect        [8, [192, 384, 576]]          
+YOLOv10m summary: 498 layers, 16,493,392 parameters, 16,493,376 gradients, 64.0 GFLOPs
+
+DDP: debug command /usr/bin/python3 -m torch.distributed.run --nproc_per_node 2 --master_port 57229 /home/faryal/.config/Ultralytics/DDP/_temp_zm479stm138584443737168.py
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+
+100 epochs completed in 0.103 hours.
+Optimizer stripped from runs/detect/train20/weights/last.pt, 33.5MB
+Optimizer stripped from runs/detect/train20/weights/best.pt, 33.5MB
+
+Validating runs/detect/train20/weights/best.pt...
+WARNING ⚠️ validating an untrained model YAML will result in 0 mAP.
+Ultralytics 8.3.49 🚀 Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+YOLOv10m summary (fused): 369 layers, 16,459,648 parameters, 0 gradients, 63.5 GFLOPs
+                 Class     Images  Instances      Box(P       
+                   all        103        327      0.652       0.69       0.73      0.439
+                  F_16         31         77      0.571       0.61      0.667      0.329
+                  F_35         11         21      0.445      0.952      0.748      0.479
+                  F_15         11         36      0.638      0.538      0.635      0.351
+                    WB         17         27      0.663      0.667      0.744      0.505
+                Mig_21         15         63      0.677      0.381      0.573      0.272
+                   A10         17         59      0.791      0.949      0.956      0.646
+                  Heli         10         31      0.646      0.588       0.66      0.362
+                 Su_27          3         13      0.784      0.837      0.857      0.571
+Speed: 0.2ms preprocess, 2.9ms inference, 0.0ms loss, 0.2ms postprocess per image
+Results saved to runs/detect/train20
+
+
